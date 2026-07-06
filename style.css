@@ -113,3 +113,21 @@ audio{
     margin:30px;
     width:300px;
 }
+@keyframes float{
+0%{
+transform:translateY(0);
+opacity:1;
+}
+100%{
+transform:translateY(-120vh);
+opacity:0;
+}
+}
+
+#typing{
+max-width:800px;
+margin:30px auto;
+font-size:20px;
+line-height:1.8;
+padding:20px;
+}
